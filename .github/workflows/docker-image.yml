@@ -79,4 +79,4 @@ jobs:
           username: ${{ secrets.USERNAME }}
           key: ${{ secrets.KEY }}
 #         port: ${{ secrets.PORT }}
-          script: docker run --name flaskindocker -d -p 5001:5001 yashinv/flaskindocker
+          script: docker run --name springbootindocker -d -p 5001:5001 yashinv/springbootindocker
