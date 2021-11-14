@@ -79,4 +79,4 @@ jobs:
           username: ${{ secrets.USERNAME }}
           key: ${{ secrets.KEY }}
 #         port: ${{ secrets.PORT }}
-          script: docker run --name springbootindocker -d -p 8080:8080 yashinv/springbootindocker
+          script: docker run --name springbootindocker -d -p 80:80 yashinv/springbootindocker
