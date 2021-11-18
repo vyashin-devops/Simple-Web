@@ -11,9 +11,9 @@ name:  Docker main Java CI with Maven
 
 on:
   push:
-    branches: [ main_ ]
+    branches: [ main ]
   pull_request:
-    branches: [ main_ ]
+    branches: [ main ]
  
 jobs:
   Build_and_push_to_Docker:
