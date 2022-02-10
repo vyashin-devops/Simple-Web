@@ -1,6 +1,6 @@
 ## Simple Web App on Spring Boot
 Status of Last Deployment:<br></br>
-<img src="https://github.com/vyashin-devops/Simple_WebApp/workflows/Docker main Java CI with Maven/badge.svg?branch=main"> ![](https://img.shields.io/badge/vyashin-SimpleWebApp-brightgreen)
+<img src="https://github.com/vyashin-devops/Simple_WebApp/workflows/Docker main Java CI with Maven/badge.svg?branch=main"> ![](https://img.shields.io/badge/vyashin-SimpleWebApp-brightgreen)<br>
 Copyleft by Vyacheslav Yashin 2021
 ***
 ## Contents:
