@@ -1,4 +1,5 @@
 ## Simple Web App on Spring Boot
+GitHub Action Workflow to build and push Docker Flask Application to Docker Hub and run container on EC2 Instance<br>
 Status of Last Deployment:<br></br>
 <img src="https://github.com/vyashin-devops/Simple_WebApp/workflows/Docker main Java CI with Maven/badge.svg?branch=main"> ![](https://img.shields.io/badge/vyashin-SimpleWebApp-brightgreen)<br><br>
 Copyleft by Vyacheslav Yashin 2021
@@ -21,6 +22,3 @@ script: docker rm -f $(docker ps -a -q) && docker rmi $(docker images -q)
 ```
 script: docker run --name springtestdocker -d -p 80:80 yashinv/springtestdocker
 ```
-
-GitHub Action Workflow to build and push Docker Flask Application to Docker Hub and run container on EC2 Instance<br>
-
